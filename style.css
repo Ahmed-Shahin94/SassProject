@@ -1,0 +1,52 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body {
+    background:#fff;
+}
+
+.containerOne {
+    width:80%;
+    margin:auto;
+    
+}
+.container {
+    overflow:hidden;
+}
+.container .box {
+    width:30%;
+    float:left;
+    background-color:#EAE9ED;
+    padding:32px 24px;
+    box-sizing:border-box;
+    margin:20px;
+}
+
+.box h1 {
+    font-size:24px;
+    
+}
+
+.portfolio {
+  background:#EAE9ED;
+  padding:50px 0;
+  text-align:center;
+}
+.portfolio .container1 {
+   overflow:hidden;
+   padding:40px 60px;
+}
+.container1 .box1 {
+    max-width:33%;
+    height:400px;
+    float:left;
+    padding:15px 10px;
+    box-sizing:border-box;
+}
+
+.portfolio img {
+    width:100%;
+    height:100%;
+}
